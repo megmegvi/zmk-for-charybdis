@@ -51,7 +51,7 @@
                                                                &kp SPACE            &kp ENTER              &mkp MB1
             >;
 
-            trackball-bindings = <&tsl>;
+            trackball-bindings = <&tmv_coarse>;
         };
 
         layer_2_Wheel {
@@ -63,11 +63,13 @@
                                                  &none           &none            &none    &none      &mkp RCLK
                                                                  &none            &none    &mkp LCLK
             >;
+            trackball-bindings = <&tsl>;
+
         };
 
         layer_3_config {
             bindings = <
-&studio_unlock  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &bt BT_CLR
+&trans          &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &bt BT_CLR
 &trans          &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
