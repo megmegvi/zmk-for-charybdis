@@ -43,10 +43,10 @@
 
         layer_1_Fn {
             bindings = <
-&kp F1          &kp F2         &kp F3          &kp F4          &kp F5               &kp F6                 &kp F7               &kp F8     &kp F9    &kp F10    &kp F11        &kp F12
-&kp CAPS        &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END              &none                  &kp INSERT           &kp HOME   &kp UP    &kp END    &kp PAGE_UP    &kp BACKSLASH
-&kp LEFT_SHIFT  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &none                  &none                &kp LEFT   &kp DOWN  &kp RIGHT  &kp PAGE_DOWN  &kp SINGLE_QUOTE
-&kp LCTRL       &none          &none           &none           &kp INTERNATIONAL_2  &kp INTERNATIONAL_4    &kp INTERNATIONAL_5  &none      &none     &none      &kp GRAVE      &kp EQUAL
+&kp F1          &kp F2         &kp F3          &kp F4          &kp F5               &kp F6                 &kp F7               &kp F8          &kp F9          &kp F10          &kp F11        &kp F12
+&kp CAPS        &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END              &none                  &kp INSERT           &kp HOME        &msc SCRL_UP    &kp END          &kp PAGE_UP    &kp BACKSLASH
+&kp LEFT_SHIFT  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &none                  &none                &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp PAGE_DOWN  &kp SINGLE_QUOTE
+&kp LCTRL       &none          &none           &none           &kp INTERNATIONAL_2  &kp INTERNATIONAL_4    &kp INTERNATIONAL_5  &none           &none           &none            &kp GRAVE      &kp EQUAL
                                                &none           &kp LEFT_WIN         &kp LEFT_ALT           &none                &kp ENTER
                                                                &mkp LCLK            &mkp RCLK              &kp SPACE
             >;
