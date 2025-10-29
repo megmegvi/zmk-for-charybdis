@@ -51,7 +51,7 @@
                                                                &mkp LCLK            &mkp RCLK                  &kp ENTER
             >;
 
-            trackball-bindings = <&tmv_coarse>;
+            trackball-bindings = <&tsl>;
         };
 
         layer_2_Wheel {
